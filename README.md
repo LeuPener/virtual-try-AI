@@ -48,23 +48,6 @@ uniapp-vue3-project
 └ vite.config.ts        vite配置
 ```
 
-#### vite插件管理
-```
-build
-├ config            vite配置
-│  ├ index.ts       入口文件
-│  └ proxy.ts       跨域代理配置
-└ plugins           vite插件
-   ├ autoImport.ts  自动导入api
-   ├ cleanImage.ts  自动清理图片文件
-   ├ component.ts   自动导入组件
-   ├ index.ts       入口文件
-   ├ replaceUrl.ts  自动替换图片地址为CDN地址
-   ├ unocss.ts      unocss配置
-   └ visualizer.ts  包体积视图分析
-
-```
-
 #### 接口管理
 ```
 api
