@@ -4,7 +4,6 @@
 [uview-plus官方文档](https://uiadmin.net/uview-plus/)
 
 ### 目录结构
-项目中采用目前最新的技术方案来实现，目录结构清晰。
 ```
 uniapp-vue3-project
 ├ build                 vite配置统一管理
