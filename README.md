@@ -4,7 +4,6 @@
 [uview-plus官方文档](https://uiadmin.net/uview-plus/)
 
 ### 目录结构
-项目中采用目前最新的技术方案来实现，目录结构清晰。
 ```
 uniapp-vue3-project
 ├ build                 vite配置统一管理
@@ -46,23 +45,6 @@ uniapp-vue3-project
 ├ tsconfig.json
 ├ uno.config.ts         unocss配置
 └ vite.config.ts        vite配置
-```
-
-#### vite插件管理
-```
-build
-├ config            vite配置
-│  ├ index.ts       入口文件
-│  └ proxy.ts       跨域代理配置
-└ plugins           vite插件
-   ├ autoImport.ts  自动导入api
-   ├ cleanImage.ts  自动清理图片文件
-   ├ component.ts   自动导入组件
-   ├ index.ts       入口文件
-   ├ replaceUrl.ts  自动替换图片地址为CDN地址
-   ├ unocss.ts      unocss配置
-   └ visualizer.ts  包体积视图分析
-
 ```
 
 #### 接口管理
